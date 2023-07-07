@@ -34,7 +34,7 @@ main:
 	call printf
 
 ;print pi
-	mov rax,0 ; 1 floating point 1 xmm register used
+	mov rax,1 ; 1 floating point 1 xmm register used
 	movq xmm0, [pi]
 	mov rdi, fmtflt
 	call printf

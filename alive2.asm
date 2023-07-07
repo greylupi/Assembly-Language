@@ -30,7 +30,7 @@ main:
 ;print radius
 	mov rax,0 ;no floating point no xmm register used
 	mov rdi, fmtint
-	mov	rsi, [radius]
+	mov rsi, [radius]
 	call printf
 
 ;print pi
